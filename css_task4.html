@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+}
+
+.task-container {
+    display: flex;
+    align-items: flex-start;
+    width: 1000px;
+    height: 200px;
+    padding-left: 420px;
+    padding-top: 200px;
+}
+
+.task-header {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    width: 200px;
+    text-align: center;
+}
+
+.sidenav {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.sidenav-button {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    transition: width 0.3s;
+}
+
+.sidenav-button:hover {
+    width: 200px;
+}
+
+.green {
+    background-color: #4CAF50;
+}
+
+.blue {
+    background-color: #2196F3;
+}
+
+.red {
+    background-color: #f44336;
+}
+
+.grey {
+    background-color: #555;
+}
+
+.content {
+    border: 1px #ddd;
+    padding: 20px;
+    width: 500px;
+    height: 200px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoverable Sidenav Buttons</title>
+</head>
+<body>
+    <div class="task-container">
+        <div class="task-header">Task-4</div>
+        <div class="sidenav">
+            <a href="#" class="sidenav-button green"></a>
+            <a href="#" class="sidenav-button blue"></a>
+            <a href="#" class="sidenav-button red"></a>
+            <a href="#" class="sidenav-button grey"></a>
+        </div>
+        <div class="content">
+            <h2>Hoverable Sidenav Buttons</h2>
+            <p>Hover over the buttons in the left side navigation to open them.</p>
+        </div>
+    </div>
+</body>
+</html>

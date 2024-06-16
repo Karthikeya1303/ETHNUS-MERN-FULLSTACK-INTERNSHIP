@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+}
+
+.task-container {
+    display: flex;
+    align-items: flex-start;
+    margin: 50px;
+}
+
+.task-header {
+    
+    color: rgb(27, 3, 3);
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 100px;
+
+}
+
+.main-container {
+    display: flex;
+    background-color: #d4d366;
+    padding: 20px;
+    width: 600px;
+    height: 400px;
+    border: 1px solid #000;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.sidebar-link {
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    border-right: 10px solid black;
+}
+
+.sidebar-link:hover {
+    background-color: #eee;
+}
+
+.content {
+    color: #800080;
+    max-width: 400px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.footer {
+    margin-top: 50px;
+    font-style: italic;
+}
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Styled Page</title>
+</head>
+<body>
+    <div class="task-container">
+        <div class="task-header">Task-5</div>
+        <div class="main-container">
+            <div class="sidebar">
+                <a href="#" class="sidebar-link">Home page</a>
+                <a href="#" class="sidebar-link">Musings</a>
+                <a href="#" class="sidebar-link">My town</a>
+                <a href="#" class="sidebar-link">Links</a>
+            </div>
+            <div class="content">
+                <h1>My first styled page</h1>
+                <p>Welcome to my styled page!</p>
+                <p>It lacks images, but at least it has style. And it has links, even if they don't go anywhere...</p>
+                <p>There should be more here, but I don't know what yet.</p>
+                <p class="footer">Made 5 April 2004<br>by myself.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
